@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAGA", "MAGA\MAGA\MAGA.csproj", "{D27A5F97-8D76-4E51-9E09-F44F03D910D9}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "MAGAContent", "MAGA\MAGAContent\MAGAContent.contentproj", "{4B1FC865-AD15-4B1F-B470-4730347BBF21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D27A5F97-8D76-4E51-9E09-F44F03D910D9}.Debug|x86.ActiveCfg = Debug|x86
+		{D27A5F97-8D76-4E51-9E09-F44F03D910D9}.Debug|x86.Build.0 = Debug|x86
+		{D27A5F97-8D76-4E51-9E09-F44F03D910D9}.Release|x86.ActiveCfg = Release|x86
+		{D27A5F97-8D76-4E51-9E09-F44F03D910D9}.Release|x86.Build.0 = Release|x86
+		{4B1FC865-AD15-4B1F-B470-4730347BBF21}.Debug|x86.ActiveCfg = Debug|x86
+		{4B1FC865-AD15-4B1F-B470-4730347BBF21}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A1CFDFE-F5C4-43DF-B652-6639AFAC174D}
+	EndGlobalSection
+EndGlobal

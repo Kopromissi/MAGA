@@ -10,6 +10,24 @@
       <Output>C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\bin\x86\Debug\Content\MAGA.xnb</Output>
       <Time>2017-10-29T17:52:32.575599+02:00</Time>
     </Item>
+    <Item>
+      <Source>meksikaani.png</Source>
+      <Name>meksikaani</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\bin\x86\Debug\Content\meksikaani.xnb</Output>
+      <Time>2017-10-29T19:51:45.3684785+02:00</Time>
+    </Item>
+    <Item>
+      <Source>trumpKuva.png</Source>
+      <Name>trumpKuva</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\bin\x86\Debug\Content\trumpKuva.xnb</Output>
+      <Time>2017-10-29T19:51:12.1118927+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{4B1FC865-AD15-4B1F-B470-4730347BBF21}</ContentProjectGUID>

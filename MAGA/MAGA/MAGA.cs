@@ -10,6 +10,7 @@ public class MAGA : PhysicsGame
 {
     private double kaantymisnopeus = 55000; //Nopeus, jolla pelaaja kääntyy
     public PhysicsObject trump; //pelaaja
+    PhysicsObject meksikolaisKolo; // Paikka josta meksikolaiset syntyvät
     int tiilet = 0; //tiilet, jotka pelaajalla on mukana
     int laasti = 0; //laastin määrä, joka pelaajalla on mukana
 
@@ -186,6 +187,7 @@ public class MAGA : PhysicsGame
         trump.MaxAngularVelocity = 5;
         trump.CollisionIgnoreGroup = 1;
         trump.Tag = "Trump";
+        //trump.Image = trumpKuva;
         Add(trump);
     }
     /// <summary>

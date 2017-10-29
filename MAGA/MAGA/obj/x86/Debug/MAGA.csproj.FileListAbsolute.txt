@@ -44,3 +44,7 @@ C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\obj\x86\Debug\Microsoft
 C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\obj\x86\Debug\MAGA.csproj.CoreCompileInputs.cache
 C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\obj\x86\Debug\MAGA.exe
 C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\obj\x86\Debug\MAGA.pdb
+C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\bin\x86\Debug\Content\meksikaani.xnb
+C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\bin\x86\Debug\Content\trumpKuva.xnb
+C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\bin\x86\Debug\Content\meksikaani.png
+C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\bin\x86\Debug\Content\trumpKuva.png

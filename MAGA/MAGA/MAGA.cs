@@ -9,7 +9,7 @@ using Jypeli.Widgets;
 public class MAGA : PhysicsGame
 {
     private double kaantymisnopeus = 55000; //Nopeus, jolla pelaaja kääntyy
-    public PhysicsObject trump; //pelaaja
+    PhysicsObject trump; //pelaaja
     PhysicsObject meksikolaisKolo; // Paikka josta meksikolaiset syntyvät
     int tiilet = 0; //tiilet, jotka pelaajalla on mukana
     int laasti = 0; //laastin määrä, joka pelaajalla on mukana
@@ -39,7 +39,22 @@ public class MAGA : PhysicsGame
         Keyboard.Listen(Key.Up, ButtonState.Released, Pysahdy, "Pysähtyy");
         Keyboard.Listen(Key.A, ButtonState.Released, HeitaTiili, "Heitä meksikolaista tiilellä");
 
+        Timer ajastin = new Timer();
+        ajastin.Interval = 10;
+        ajastin.Timeout += delegate { LuoMeksikolainen(meksikolaisKolo.Position); };
+        ajastin.Start();
 
+    }
+
+    void LuoMeksikolainen(Vector paikka)
+    {
+        PhysicsObject meksikolainen = new PhysicsObject(120, 100);
+        meksikolainen.Position = paikka;
+        meksikolainen.Tag = "meksikaani";
+        meksikolainen.Image = LoadImage("meksikaani");
+        meksikolainen.MoveTo(new Vector (0, -450), 200, meksikolainen.Destroy); // TODO: korjaa vika parametri paremmaksi
+        meksikolainen.CollisionIgnoreGroup = 2;
+        Add(meksikolainen);
     }
 
     void RakennaMuuri()
@@ -52,9 +67,9 @@ public class MAGA : PhysicsGame
     /// <summary>
     /// Aliohjelma, joka käsittelee tiilen heittämisen
     /// </summary>
-    private void HeitaTiili()
+    void HeitaTiili()
     {
-        if(tiilet > 0)
+        while(tiilet > 0)
         {
             LuoLentavaTiili(trump.Position);
         }
@@ -74,9 +89,9 @@ public class MAGA : PhysicsGame
         Vector nokanSuunta = Vector.FromLengthAndAngle(1500, trump.Angle);
         tiili.Velocity = nokanSuunta;
         tiili.AngularVelocity = 100;
-        tiili.CollisionIgnoreGroup = 1;
         Add(tiili);
     }
+
     /// <summary>
     /// Käsitellään tiilten hakeminen pinosta
     /// </summary>
@@ -180,14 +195,13 @@ public class MAGA : PhysicsGame
     /// <param name="korkeus"></param>
     void LuoTrump(Vector paikka, double leveys, double korkeus)
     {
-        trump = new PhysicsObject(leveys, korkeus);
+        trump = new PhysicsObject(leveys * 2 , korkeus * 2);
         trump.Position = paikka;
-        trump.Shape = Shape.Rectangle;
-        trump.Color = Color.White;
         trump.MaxAngularVelocity = 5;
         trump.CollisionIgnoreGroup = 1;
         trump.Tag = "Trump";
-        //trump.Image = trumpKuva;
+        trump.Angle = Angle.FromDegrees(90);
+        trump.Image = LoadImage("trumpKuva");
         Add(trump);
     }
     /// <summary>
@@ -198,10 +212,11 @@ public class MAGA : PhysicsGame
     /// <param name="korkeus"></param>
     void LuoMeksikolaisKolo(Vector paikka, double leveys, double korkeus)
     {
-        PhysicsObject meksikolaisKolo = PhysicsObject.CreateStaticObject(leveys, korkeus);
+        meksikolaisKolo = new PhysicsObject(leveys * 2, korkeus * 2);
         meksikolaisKolo.Position = paikka;
         meksikolaisKolo.Shape = Shape.Rectangle;
         meksikolaisKolo.Color = Color.Yellow;
+        meksikolaisKolo.CollisionIgnoreGroup = 2;
         Add(meksikolaisKolo);
     }
     /// <summary>

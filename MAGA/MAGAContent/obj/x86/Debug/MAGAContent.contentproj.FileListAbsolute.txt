@@ -1,0 +1,10 @@
+C:\Users\tontt\source\repos\MAGA\MAGA\MAGAContent\obj\x86\Debug\MAGAContent.contentprojResolveAssemblyReference.cache
+C:\Users\tontt\source\repos\MAGA\MAGA\MAGAContent\obj\x86\Debug\MAGAContent.contentproj.CoreCompileInputs.cache
+C:\Users\Toni\source\repos\MAGA\MAGA\MAGAContent\obj\x86\Debug\MAGAContent.contentprojResolveAssemblyReference.cache
+C:\Users\Toni\source\repos\MAGA\MAGA\MAGAContent\obj\x86\Debug\MAGAContent.contentproj.CoreCompileInputs.cache
+C:\Users\tontt\source\repos\tomakesk\MAGA\MAGA\MAGAContent\obj\x86\Debug\MAGAContent.contentprojResolveAssemblyReference.cache
+C:\Users\tontt\source\repos\tomakesk\MAGA\MAGA\MAGAContent\obj\x86\Debug\MAGAContent.contentproj.CoreCompileInputs.cache
+C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\MAGAContent\obj\x86\Debug\MAGAContent.contentprojResolveAssemblyReference.cache
+C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\MAGAContent\obj\x86\Debug\MAGAContent.contentproj.CoreCompileInputs.cache
+C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGAContent\obj\x86\Debug\MAGAContent.contentprojResolveAssemblyReference.cache
+C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGAContent\obj\x86\Debug\MAGAContent.contentproj.CoreCompileInputs.cache

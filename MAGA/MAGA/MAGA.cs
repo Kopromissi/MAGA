@@ -48,11 +48,11 @@ public class MAGA : PhysicsGame
 
     void LuoMeksikolainen(Vector paikka)
     {
-        PhysicsObject meksikolainen = new PhysicsObject(120, 100);
+        PhysicsObject meksikolainen = PhysicsObject.CreateStaticObject(100, 100);
         meksikolainen.Position = paikka;
         meksikolainen.Tag = "meksikaani";
         meksikolainen.Image = LoadImage("meksikaani");
-        meksikolainen.MoveTo(new Vector (0, -450), 200, meksikolainen.Destroy); // TODO: korjaa vika parametri paremmaksi
+        meksikolainen.MoveTo(new Vector (0, -10000), 200, meksikolainen.Destroy); // TODO: korjaa vika parametri paremmaksi
         meksikolainen.CollisionIgnoreGroup = 2;
         Add(meksikolainen);
     }
@@ -69,10 +69,11 @@ public class MAGA : PhysicsGame
     /// </summary>
     void HeitaTiili()
     {
-        while(tiilet > 0)
+        if(tiilet > 0)
         {
             LuoLentavaTiili(trump.Position);
-        }
+            tiilet--;
+        }       
     }
     /// <summary>
     /// Luodaan lentävä tiili ja annetaan sille nopeus
@@ -133,7 +134,7 @@ public class MAGA : PhysicsGame
         trump.ApplyTorque(-kaantymisnopeus);
     }
     /// <summary>
-    /// pelaajan kääntyminen vasemmalle TODO: refaktoroi
+    /// pelaajan kääntyminen vasemmalle TODO: refaktoroi nämä samaan
     /// </summary>
     private void KaannaVasemmalle()
     {
@@ -242,11 +243,12 @@ public class MAGA : PhysicsGame
     /// <param name="korkeus"></param>
     void LuoVapaaMaa(Vector paikka, double leveys, double korkeus)
     {
-        PhysicsObject vapaaMaa = PhysicsObject.CreateStaticObject(leveys, korkeus);
+        PhysicsObject vapaaMaa = PhysicsObject.CreateStaticObject(700, 300);
         vapaaMaa.Position = paikka;
         vapaaMaa.Shape = Shape.Rectangle;
         vapaaMaa.Color = Color.Blue;
         vapaaMaa.Tag = "vapaus";
+        vapaaMaa.Image = LoadImage("vapaaMaa");
         Add(vapaaMaa);
     }
 

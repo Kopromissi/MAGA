@@ -48,3 +48,19 @@ C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\bin\x86\Debug\Content\m
 C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\bin\x86\Debug\Content\trumpKuva.xnb
 C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\bin\x86\Debug\Content\meksikaani.png
 C:\Users\Toni\Documents\Gitti\Ohj1 Harkka\MAGA\MAGA\MAGA\bin\x86\Debug\Content\trumpKuva.png
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\bin\x86\Debug\Content\MAGA.xnb
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\bin\x86\Debug\Content\meksikaani.xnb
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\bin\x86\Debug\Content\trumpKuva.xnb
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\bin\x86\Debug\Content\meksikaani.png
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\bin\x86\Debug\Content\MAGA.txt
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\bin\x86\Debug\Content\trumpKuva.png
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\bin\x86\Debug\MAGA.exe
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\bin\x86\Debug\MAGA.pdb
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\bin\x86\Debug\Jypeli.dll
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\bin\x86\Debug\Jypeli.xml
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\obj\x86\Debug\MAGA.csprojResolveAssemblyReference.cache
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\obj\x86\Debug\MAGA.csproj.CoreCompileInputs.cache
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\obj\x86\Debug\MAGA.exe
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\obj\x86\Debug\MAGA.pdb
+C:\Users\tontt\Documents\MAGAPeli\MAGA\MAGA\bin\x86\Debug\Content\vapaaMaa.xnb
